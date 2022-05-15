@@ -1,6 +1,6 @@
 # sc_phonetax
 
-This ESX resource will make you pay a phone bill that will be automatically debited from your bank account.  
+This ESX resource adds a phone bill to the game. The system will automatically debit the money from your bank account.  
 
 Currently available in English and German. Updates will follow!!!
 
