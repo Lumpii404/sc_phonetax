@@ -12,7 +12,9 @@ Currently available in English and German. Updates will follow!!!
 
 ## Installation
 Clone or download this repository
+
 Add sc_phonetax to your resources directory
+
 Add this in your server.cfg :
 ```
 ensure sc_phonetax
