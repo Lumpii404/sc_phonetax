@@ -9,7 +9,7 @@ Citizen.CreateThread(function()
 
     while true do
 
-        for k, playerid in pairs(GetPlayers()) do
+        for _, playerid in pairs(GetPlayers()) do
             local xPlayer = ESX.GetPlayerFromId(playerid)
             if xPlayer.getInventoryItem(Config.PhoneItem) ~= nil then
                 local phoneCount = xPlayer.getInventoryItem(Config.PhoneItem).count
