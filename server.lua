@@ -18,7 +18,7 @@ Citizen.CreateThread(function()
                     if Config.BulletinEnable then
                         TriggerClientEvent('bulletin:sendAdvanced', xPlayer.source, Translation[Config.Locale]['text'] .. price .. Translation[Config.Locale]['text1'], Translation[Config.Locale]['handy'], Translation[Config.Locale]['pay_text'], 'CHAR_CHAT_CALL', 5000)
                     else
-                        TriggerClientEvent('scphonetax:picturemsg', xPlayer.source, 'CHAR_CHAT_CALL', Translation[Config.Locale]['text'] .. price .. Translation[Config.Locale]['text1'], Translation[Config.Locale]['handy'], Translation[Config.Locale]['pay_text'])
+                        TriggerClientEvent('scphonetax:sendtax', xPlayer.source, 'CHAR_CHAT_CALL', Translation[Config.Locale]['text'] .. price .. Translation[Config.Locale]['text1'], Translation[Config.Locale]['handy'], Translation[Config.Locale]['pay_text'])
                     end               
                 end    
             end
