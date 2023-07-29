@@ -14,7 +14,6 @@ Citizen.CreateThread(function()
             if xPlayer.getInventoryItem(Config.PhoneItem) ~= nil then
                 local phoneCount = xPlayer.getInventoryItem(Config.PhoneItem).count
                 if phoneCount > 0 then 
-                    --Handyvertrag soll bezahlt werden // Cell phone contract to be paid
                     xPlayer.removeAccountMoney('bank', price)
                     if Config.BulletinEnable then
                         TriggerClientEvent('bulletin:sendAdvanced', xPlayer.source, Translation[Config.Locale]['text'] .. price .. Translation[Config.Locale]['text1'], Translation[Config.Locale]['handy'], Translation[Config.Locale]['pay_text'], 'CHAR_CHAT_CALL', 5000)
