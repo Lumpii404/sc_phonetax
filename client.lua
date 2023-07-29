@@ -6,8 +6,8 @@ Citizen.CreateThread(function()
     end
 end)
 
-RegisterNetEvent('scphonetax:picturemsg')
-AddEventHandler('scphonetax:picturemsg', function(icon, msg, title, subtitle)
+RegisterNetEvent('scphonetax:sendtax')
+AddEventHandler('scphonetax:sendtax', function(icon, msg, title, subtitle)
 
     showPictureNotification(icon, msg, title, subtitle)
 
