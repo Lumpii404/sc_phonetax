@@ -43,7 +43,7 @@ Citizen.CreateThread(function()
                                 title = Translation[Config.Locale]['pay_text'],
                                 description = notificationText,
                                 duration = 5000,
-                                icon = 'mobile'
+                                icon = 'mobile-screen-button'
                             })
                         end
                     end
