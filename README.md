@@ -1,14 +1,14 @@
-# sc_phonetax
+Hello friends, today I would like to introduce you to the new version of sc_phonetax. With this version you have an incredible number of setting options and can choose between three different notification systems. For people who do not have only one item as a phone, you can now also enter several items. All necessary settings can be found in the config.lua.  
 
-This ESX resource adds a phone bill to the game. The system will automatically debit the money from your bank account.  
+## Additional notification systems
 
-Currently available in English and German. Updates will follow!!!
+> [ox_lib](https://github.com/overextended/ox_lib)
+or
+> [bulletin](https://github.com/Mobius1/bulletin)
 
 ## Requirements
 
-> [ESX-Framework](https://github.com/esx-framework/esx-legacy)
-
-> [Bulletin](https://forum.cfx.re/t/free-standalone-bulletin-customisable-notifications/4360505) -- Only a recommendation
+> [ESX-Legacy](https://github.com/esx-framework/esx-legacy) V1.10.x
 
 ## Installation
 Clone or download this repository
@@ -19,3 +19,15 @@ Add this in your server.cfg :
 ```
 ensure sc_phonetax
 ```
+## » Check out my other resources
+» [sc_extinguisher](https://forum.cfx.re/t/release-extinguisher-esx/5183025) [FREE]
+
+» [sc_animatedNPC](https://forum.cfx.re/t/free-animatednpc-standalone/5151612/14) [FREE]
+
+» [sc_dumpster-diving](https://forum.cfx.re/t/release-dumpster-diving-esx/5169846) [FREE]
+
+» [sc_hud](https://forum.cfx.re/t/release-simplehud-esx/5169589) [FREE]
+
+» [sc_package](https://forum.cfx.re/t/release-packages-esx/5178229) [FREE]
+
+» [ NEW DESIGNS FOR JSFOUR-IDCARD](https://forum.cfx.re/t/release-new-designs-for-jsfour-idcard/5173429) [FREE]
