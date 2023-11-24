@@ -25,7 +25,6 @@ Config.Notify = {
     {name = "ox_lib", enabled = false},
 }
 
-Config.BulletinEnable = true --https://forum.cfx.re/t/free-standalone-bulletin-customisable-notifications/4360505
 Config.Delay = 5000 --How long should the notification be displayed || Default 5 seconds
 Config.Char = 'WEB_FRUIT' -- Find other Chars: https://wiki.rage.mp/index.php?title=Notification_Pictures
 Config.Position = 'bottomleft' -- "bottomleft", "topleft", "topright", "bottomright", "bottom", "top"
