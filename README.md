@@ -1,4 +1,4 @@
-![](https://github.com/ScubeScripts/sc_phonetax/assets/104854776/acbed4cf-d922-482d-b786-8d65eee01487)
+![](https://github.com/ScubeScripts/sc_phonetax/assets/104854776/a32418d4-6258-42af-b4ef-d358c97f981b)
 
 Hello friends, today I would like to introduce you to the new version of sc_phonetax. With this version you have an incredible number of setting options and can choose between three different notification systems. For people who do not have only one item as a phone, you can now also enter several items. All necessary settings can be found in the config.lua.  
 
